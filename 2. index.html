@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novovu | Project Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NOV<span>OVU</span></div>
+        <div class="user-profile">Dev Portal</div>
+    </nav>
+
+    <main class="container">
+        <header class="dashboard-header">
+            <h1>Project Dashboard</h1>
+            <div class="controls">
+                <input type="text" id="searchInput" placeholder="Search projects...">
+                <select id="statusFilter">
+                    <option value="all">All Statuses</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Completed">Completed</option>
+                    <option value="Delayed">Delayed</option>
+                </select>
+            </div>
+        </header>
+
+        <section id="projectGrid" class="project-grid">
+            <!-- JavaScript will inject cards here -->
+            <div class="loader">Loading Novovu Data...</div>
+        </section>
+    </main>
+
+    <!-- Project Detail Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
