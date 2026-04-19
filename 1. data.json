@@ -1,0 +1,6 @@
+[
+  { "id": 1, "title": "AI Cloud Integration", "status": "In Progress", "lead": "Sarah Chen", "priority": "High" },
+  { "id": 2, "title": "Mobile App UI Refresh", "status": "Completed", "lead": "James Wilson", "priority": "Medium" },
+  { "id": 3, "title": "Auth System Security", "status": "Delayed", "lead": "Elena Rodriguez", "priority": "Critical" },
+  { "id": 4, "title": "Data Visualization Tool", "status": "In Progress", "lead": "Marcus Thorne", "priority": "Low" }
+]
